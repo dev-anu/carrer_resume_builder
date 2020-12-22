@@ -1,0 +1,10 @@
+.header {
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 20px;
+}
+.logo {
+  color: green;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 10px;
+}

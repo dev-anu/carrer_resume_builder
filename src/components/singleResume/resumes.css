@@ -1,0 +1,12 @@
+.resumes {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.resume img {
+  width: 230px;
+  height: 300px;
+  border: 1px solid grey;
+  margin: 10px;
+}

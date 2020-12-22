@@ -1,11 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
-import UserGoogleLogin from "./UserGoogleLogin";
+import { BrowserRouter, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Login from "./pages/Login";
 
 function App() {
   return (
     <div className="App">
-      <UserGoogleLogin />
+      <BrowserRouter>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/login/:id" component={Login} />
+      </BrowserRouter>
     </div>
   );
 }
