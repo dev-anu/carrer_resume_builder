@@ -1,0 +1,93 @@
+.login {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.signup {
+  padding: 20px;
+  width: 50%;
+}
+
+.signin {
+  padding: 20px;
+  width: 50%;
+}
+
+.form {
+  width: 100%;
+}
+
+input {
+  width: 70%;
+  margin: 10px auto;
+  height: 40px;
+  font-size: 20px;
+  color: gray;
+  border: none;
+  border: 1px solid grey;
+  box-shadow: 3px 3px 5px grey;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  width: 100%;
+}
+
+.btn_div {
+  width: 55%;
+  margin: 10px auto;
+}
+.success_btn {
+  background-color: green;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  box-shadow: 3px 3px 5px grey;
+}
+
+.success_btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn_login {
+  margin-top: 20px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.err {
+  color: red;
+}
+
+@media all and (max-width: 600px) {
+  .login {
+    display: block;
+  }
+
+  .signin {
+    width: 100%;
+  }
+
+  .signup {
+    width: 100%;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  .btn_login {
+    width: 60%;
+    display: block;
+    margin: 5px auto;
+  }
+  .google_log {
+    margin: 10px 10px;
+  }
+}
