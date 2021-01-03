@@ -13,7 +13,7 @@ function Login(props) {
           <SignUp />
         </div>
         <div className="signin">
-          <SignIn />
+          <SignIn id={id} />
         </div>
       </div>
     </div>

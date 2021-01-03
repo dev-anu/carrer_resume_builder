@@ -1,0 +1,45 @@
+.resume_container {
+  padding: 20px;
+  border: 1px solid grey;
+}
+.head_section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.head_right_sec {
+  text-align: right;
+}
+.objective_section,
+.educational_section {
+  margin-top: 20px;
+}
+
+.objective_section h4,
+.educational_section h4,
+.experience_section h4 {
+  border-bottom: 3px solid grey;
+  color: grey;
+}
+
+.objective_section p,
+.educational_section p,
+.experience_section p {
+  margin-top: 10px;
+}
+
+.edu_sec_deg {
+  display: flex;
+}
+.edu_sec_deg p {
+  margin: 10px;
+}
+
+.headings {
+  color: rgb(143, 138, 143);
+}
+
+.tech_used {
+  margin-left: 20px;
+}

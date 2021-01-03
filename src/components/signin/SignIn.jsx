@@ -34,7 +34,7 @@ function SignIn(props) {
         } else {
           localStorage.setItem("jwt", res.data.token);
           localStorage.setItem("user", JSON.stringify(res.data));
-          dispatch({ type: "USER", payload: res.data });
+          dispatch({ type: "USER", payload: res.data, resumeId: props.id });
           alert("Logged In Successfull");
           history.push("/dashboard");
         }
