@@ -1,0 +1,24 @@
+.dash_body {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.dash_log {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.dash_log button {
+  border: none;
+  background: transparent;
+}
+
+.display_res {
+  width: 50%;
+}
+
+.form_area {
+  width: 50%;
+}

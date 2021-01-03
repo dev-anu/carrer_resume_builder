@@ -18,7 +18,8 @@
   width: 100%;
 }
 
-input {
+input,
+textarea {
   width: 70%;
   margin: 10px auto;
   height: 40px;
